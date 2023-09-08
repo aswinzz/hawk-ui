@@ -1,46 +1,106 @@
-# Getting Started with Create React App
+# Hawk UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the documentation and component library for Hawk UI. 
+This repository contains the Storybook project, which showcases your UI components, design system, and provides documentation for their usage.
 
-## Available Scripts
+Design Implemented from https://www.figma.com/file/QPYqQMfmJQHSInCzTBH4Ra/Hawk---Design-System-(Community)?node-id=408%3A1008&mode=dev
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Deployment](#deployment)
+  - [Deploying to Vercel](#deploying-to-vercel)
+- [Contributing](#contributing)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Installation
 
-### `npm test`
+To get started with the project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository to your local machine:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/aswinzz/hawk-ui/
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    cd hawk-ui
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the project dependencies:
 
-### `npm run eject`
+    ```bash
+    npm install
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Usage
+    
+    To run the UI, use the following command:
+    ```bash
+    npm start
+    ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    To run the Storybook locally and view your components, use the following command:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    ```bash
+    npm run storybook
+    ```
 
-## Learn More
+5. This will start the development server, 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    you can access the UI in your browser at http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    you can access the Storybook in your browser at http://localhost:6006
+
+
+
+
+### Adding a Component
+To add new component do the following:
+
+1. Create a new component file in the components directory with folder name as the component name.
+2. There should be 3 files, `ComponentName.tsx`, `ComponentName.module.scss` & `index.tsx`
+3. Create a corresponding story file (e.g., ComponentName.stories.tsx) in the `stories` directory.
+4. Verify your component properties & behavior using story book
+
+
+
+
+### Deployment
+Deploying to Vercel
+- UI Code is automatically deployed to Vercel on every merge to `main` branch. Live at https://hawk-ui.vercel.app
+- Your Storybook can be easily deployed to Vercel. Live at https://hawk-storybook.vercel.app/
+
+#### Follow these steps:
+
+1. Build the Storybook for production:
+
+    ```bash
+    npm run build-storybook
+    ```
+
+2. Install the Vercel CLI and log in to your Vercel account if you haven't already (see Vercel CLI Installation).
+
+    Deploy the Storybook to Vercel:
+
+    ```bash
+    vercel
+    ```
+
+3. Follow the deployment prompts and confirm the deployment.
+
+4. Access your deployed Storybook at the provided URL.
+
+
+### Contributing
+Contributions are welcome! Please follow our Contributing Guidelines to get started.
+
+### License
+This project is licensed under the MIT License.
