@@ -1,0 +1,7 @@
+@import './styles/index.scss';
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--bg-color);
+  padding: $medium;
+}

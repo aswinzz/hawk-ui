@@ -1,0 +1,39 @@
+.light-mode {
+    --bg-color: #{$bg-color-light};
+    --text-color-primary: #{$text-color-light-primary};
+    --text-color-secondary: #{$text-color-light-secondary};
+    --text-color-tertiary: #{$text-color-light-tertiary};
+    --bg-color-primary: #{$bg-color-light-primary};
+    --bg-color-secondary: #{$bg-color-light-secondary};
+    --bg-color-tertiary: #{$bg-color-light-tertiary};
+    --brand-color: #{$brand-color-light};
+    --primary-color: #{$primary-color-light};
+    --informative-color: #{$informative-color-light};
+    --danger-color: #{$danger-color-light};
+    --warning-color: #{$warning-color-light};
+    --success-color: #{$success-color-light};
+    --accent-primary-color: #{$accent-primary-color-light};
+    --accent-secondary-color: #{$accent-secondary-color-light};
+    --elevation-float: #{$elevation-float-light};
+    --elevation-raised: #{$elevation-raised-light};
+}
+
+.dark-mode {
+    --bg-color: #{$bg-color-dark};
+    --text-color-primary: #{$text-color-dark-primary};
+    --text-color-secondary: #{$text-color-dark-secondary};
+    --text-color-tertiary: #{$text-color-dark-tertiary};
+    --bg-color-primary: #{$bg-color-dark-primary};
+    --bg-color-secondary: #{$bg-color-dark-secondary};
+    --bg-color-tertiary: #{$bg-color-dark-tertiary};
+    --brand-color: #{$brand-color-dark};
+    --primary-color: #{$primary-color-dark};
+    --informative-color: #{$informative-color-dark};
+    --danger-color: #{$danger-color-dark};
+    --warning-color: #{$warning-color-dark};
+    --success-color: #{$success-color-dark};
+    --accent-primary-color: #{$accent-primary-color-dark};
+    --accent-secondary-color: #{$accent-secondary-color-dark};
+    --elevation-float: #{$elevation-float-dark};
+    --elevation-raised: #{$elevation-raised-dark};
+}

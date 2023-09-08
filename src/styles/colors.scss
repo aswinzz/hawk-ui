@@ -1,0 +1,122 @@
+$blue-color-100: #CDDAF9;
+$blue-color-200: #A4BDF5;
+$blue-color-300: #80A3F1;
+$blue-color-400: #5181EC;
+$blue-color-500: #2561E7;
+$blue-color-600: #1B46A7;
+$blue-color-700: #153886;
+$blue-color-800: #112C68;
+$blue-color-900: #0C1F4A;
+
+$neutral-color-50: #FAFAFA;
+$neutral-color-100: #EEEEEE;
+$neutral-color-200: #D4D4D5;
+$neutral-color-300: #A0A0A1;
+$neutral-color-400: #7E7E80;
+$neutral-color-500: #5E5E60;
+$neutral-color-600: #39393C;
+$neutral-color-700: #242426;
+$neutral-color-800: #1A1A1D;
+$neutral-color-900: #111114;
+
+$success-color-100: #C6DFD3;
+$success-color-200: #98C5B0;
+$success-color-300: #71AF91;
+$success-color-400: #3B9168;
+$success-color-500: #0A7542;
+$success-color-600: #085E35;
+$success-color-700: #074F2D;
+$success-color-800: #053B21;
+$success-color-900: #042D19;
+
+$error-color-100: #EDC4CE;
+$error-color-200: #DF94A6;
+$error-color-300: #D26B83;
+$error-color-400: #A6435B;
+$error-color-500: #B2002A;
+$error-color-600: #8E0022;
+$error-color-700: #79001C;
+$error-color-800: #480A19;
+$error-color-900: #370813;
+
+$warning-color-100: #FACBA4;
+$warning-color-200: #F7AF72;
+$warning-color-300: #F59F57;
+$warning-color-400: #F38629;
+$warning-color-500: #F27E1C;
+$warning-color-600: #C26516;
+$warning-color-700: #A45513;
+$warning-color-800: #793F0E;
+$warning-color-900: #5C300B;
+
+$accent-primary-color-100: #DEC7F0;
+$accent-primary-color-200: #C399E4;
+$accent-primary-color-300: #AD73DA;
+$accent-primary-color-400: #9042CD;
+$accent-primary-color-500: #710DBF;
+$accent-primary-color-600: #5A0A99;
+$accent-primary-color-700: #4D0982;
+$accent-primary-color-800: #390760;
+$accent-primary-color-900: #2B0549;
+
+$accent-secondary-color-100: #9BDCDC;
+$accent-secondary-color-200: #82D3D3;
+$accent-secondary-color-300: #55C4C4;
+$accent-secondary-color-400: #1EB1B1;
+$accent-secondary-color-500: #05A8A8;
+$accent-secondary-color-600: #048686;
+$accent-secondary-color-700: #037272;
+$accent-secondary-color-800: #035454;
+$accent-secondary-color-900: #024040;
+
+$light-color: #FAFAFA;
+$dark-color: #111114;
+
+$text-color-light-primary: $neutral-color-700;
+$text-color-light-secondary: $neutral-color-600;
+$text-color-light-tertiary: $neutral-color-500;
+
+$bg-color-light-primary: $neutral-color-100;
+$bg-color-light-secondary: $neutral-color-200;
+$bg-color-light-tertiary: $neutral-color-300;
+
+$bg-color-dark-primary: $neutral-color-700;
+$bg-color-dark-secondary: $neutral-color-600;
+$bg-color-dark-tertiary: $neutral-color-500;
+
+$text-color-dark-primary: $neutral-color-100;
+$text-color-dark-secondary: $neutral-color-200;
+$text-color-dark-tertiary: $neutral-color-300;
+
+$brand-color-light: $blue-color-500;
+$brand-color-dark: $blue-color-500;
+
+$primary-color-light: $blue-color-500;
+$primary-color-dark: $blue-color-400;
+
+$informative-color-light: $blue-color-500;
+$informative-color-dark: $blue-color-400;
+
+$danger-color-light: $error-color-500;
+$danger-color-dark: $error-color-400;
+
+$warning-color-light: $warning-color-500;
+$warning-color-dark: $warning-color-400;
+
+$success-color-light: $success-color-500;
+$success-color-dark: $success-color-400;
+
+$accent-primary-color-light: $accent-primary-color-500;
+$accent-primary-color-dark: $accent-primary-color-400;
+
+$accent-secondary-color-light: $accent-secondary-color-500;
+$accent-secondary-color-dark: $accent-secondary-color-400;
+
+$bg-color-light: $light-color;
+$bg-color-dark: $dark-color;
+
+$elevation-raised-light: 2px 2px 8px 0px rgba(124, 124, 127, 0.20);
+$elevation-raised-dark: 1px 1px 6px 0px rgba(17, 17, 20, 0.20);
+
+$elevation-float-light: 4px 4px 16px 0px rgba(124, 124, 127, 0.25);
+$elevation-float-dark: 6px 6px 20px 0px rgba(17, 17, 20, 0.25);

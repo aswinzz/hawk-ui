@@ -1,0 +1,117 @@
+@import '../../styles/index.scss';
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: $tiny;
+    flex: 1 0 0;
+    border-radius: $border-radius-sm;
+    cursor: pointer;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.primary.dark {
+    background: $blue-color-400;
+    color: $neutral-color-100;
+    border: 1px solid $blue-color-400;
+
+    :hover {
+        background: $blue-color-400;
+    }
+}
+
+.primary.light {
+    background: $blue-color-500;
+    border: 1px solid $blue-color-400;
+    color: $neutral-color-100;
+
+    &:hover {
+        background: $blue-color-400;
+    }
+}
+
+.primary.dark.disabled {
+    opacity: 0.45;
+    background: $blue-color-400;
+}
+
+.primary.light.disabled {
+    opacity: 0.45;
+    background: $blue-color-500;
+}
+
+
+.secondary.dark {
+    background: $neutral-color-900;
+    color: $neutral-color-100;
+    border-radius: $tiny;
+    border: 1px solid $blue-color-400;
+
+    :hover {
+        background: $blue-color-900;
+    }
+}
+
+.secondary.light {
+    border-radius: $border-radius-sm;
+    border: 1px solid $blue-color-500;
+    background: transparent;
+
+    &:hover {
+        background: $blue-color-100;
+    }
+}
+
+.secondary.dark.disabled {
+    border-radius: $border-radius-sm;
+    border: 1px solid $blue-color-400;
+    opacity: 0.45;
+}
+
+.secondary.light.disabled {
+    border-radius: 8px;
+    border: 1px solid $blue-color-500;
+    opacity: 0.45;
+}
+
+
+.destructive.dark {
+    border-radius: $border-radius-sm;
+    background: $error-color-400;
+    color: $neutral-color-100;
+    border: 1px solid $error-color-400;
+
+    :hover {
+        background: $error-color-500;
+    }
+}
+
+.destructive.light {
+    border-radius: $border-radius-sm;
+    background: $error-color-500;
+    color: $neutral-color-100;
+    border: 1px solid $error-color-500;
+
+    &:hover {
+        background: $error-color-600;
+    }
+}
+
+.destructive.dark.disabled {
+    opacity: 0.45;
+    background: $error-color-400;
+    color: $neutral-color-100;
+}
+
+.destructive.light.disabled {
+    border-radius: $border-radius-sm;
+    border: 1px solid $error-color-500;
+    opacity: 0.45;
+    color: $neutral-color-100;
+}
