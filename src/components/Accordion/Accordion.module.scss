@@ -1,0 +1,57 @@
+@import '../../styles/index.scss';
+
+.accordion {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    align-items: center;
+    border-radius: $border-radius-sm;
+    cursor: pointer;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: $bold-lg;
+    font-weight: $bolder-weight;
+    line-height: 180%;
+}
+
+// to be implemented
+.disabled {
+    
+}
+
+.accordion.dark {
+    background: $neutral-color-800;
+    color: $neutral-color-100;
+}
+
+.accordion.light {
+    background: $neutral-color-50;
+    color: $neutral-color-700;
+}
+
+.content {
+    font-size: $bold-s;
+    font-weight: $bold-weight;
+    line-height: 180%;
+    width: 100%;
+}
+
+.hr {
+    height: 1px;
+    width: 100%;
+    margin: $xx-small 0;
+}
+
+.hr.light {
+    background: $neutral-color-200;
+}
+
+.hr.dark {
+    background: $neutral-color-600;
+}
