@@ -1,0 +1,74 @@
+@import '../../styles/index.scss';
+
+.toast {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding: 0 $xx-small;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: $border-radius-sm;
+    color: $neutral-color-100;
+    width: 450px;
+}
+
+.title {
+    font-size: $bold-lg;
+    font-weight: $bolder-weight;
+    line-height: 180%;
+}
+
+.message {
+    font-size: $caption-size;
+    font-weight: $bold-weight;
+    line-height: 150%; 
+    align-self: stretch;
+}
+
+.left {
+    display: flex;
+}
+
+.icon {
+    padding-right: $xx-small;
+}
+
+.success.dark {
+    background: $success-color-500;
+}
+
+.success.light {
+    background: $success-color-400;
+}
+
+.error.dark {
+    background: $error-color-500;
+}
+
+.error.light {
+    background: $error-color-400;
+}
+
+.neutral.dark {
+    background: $blue-color-200;
+    color: $neutral-color-700;
+}
+
+.neutral.light {
+    background: $blue-color-800;
+
+}
+
+.information.dark {
+    background: $accent-secondary-color-200;
+    color: $neutral-color-700;
+}
+
+.information.light {
+    background: $accent-secondary-color-900;
+}
+
+.actionButton {
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+}
