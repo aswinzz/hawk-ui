@@ -1,0 +1,69 @@
+@import '../../styles/index.scss';
+
+.wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding: $xx-small;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: $x-small;
+    flex-shrink: 0;
+    border-radius: $border-radius-md;
+    position: absolute;
+    z-index: 999;
+}
+
+.withFixedWidth {
+    width: 322px;
+}
+
+.tooltip.dark {
+    background: $neutral-color-800;
+    color: $neutral-color-200;
+}
+
+.tooltip.light {
+    background: $neutral-color-200;
+    color: $neutral-color-800;
+}
+
+.title {
+    font-size: $h6-size;
+    font-weight: $bolder-weight;
+    line-height: 150%; 
+}
+
+.content {
+    font-size: $caption-size;
+    font-weight: $bold-weight;
+    line-height: 150%;
+}
+
+.up {
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+.down {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.left {
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right {
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
