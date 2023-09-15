@@ -1,0 +1,24 @@
+@import '../../styles/index.scss';
+
+.chip {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    padding: $tiny $xx-small;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: $caption-size;
+    font-weight: $bold-weight;
+    line-height: 150%;
+}
+
+.chip.dark {
+    border-radius: $border-radius-lg;
+    background: $neutral-color-600;
+    color: $neutral-color-200;    
+}
+
+.chip.light {
+    border-radius: $border-radius-lg;
+    background: $neutral-color-200;
+    color: $neutral-color-600;
+}
