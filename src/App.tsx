@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useTheme } from './context/ThemeContext';
 import logoDark from './images/svg/logo-dark.svg';
 import logoLight from './images/svg/logo-light.svg';
