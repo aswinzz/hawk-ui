@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
 import Accordion from '../components/Accordion';
+import AccordionStyles from '../components/Accordion/Accordion.module.scss';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 const meta = {
@@ -24,6 +25,7 @@ export const ClosedPrimaryDark: Story = {
     title: "Accordion Title",
     theme: "dark",
     isOpen: false,
+    customClassName: AccordionStyles.withFixedWidth,
   },
 };
 
@@ -33,6 +35,7 @@ export const ClosedPrimaryLight: Story = {
     title: "Accordion Title",
     theme: "light",
     isOpen: false,
+    customClassName: AccordionStyles.withFixedWidth,
   },
 };
 
@@ -42,6 +45,7 @@ export const OpenPrimaryDark: Story = {
     title: "Accordion Title",
     theme: "dark",
     isOpen: true,
+    customClassName: AccordionStyles.withFixedWidth,
   },
 };
 
@@ -51,5 +55,6 @@ export const OpenPrimaryLight: Story = {
     title: "Accordion Title",
     theme: "light",
     isOpen: true,
+    customClassName: AccordionStyles.withFixedWidth,
   },
 };
