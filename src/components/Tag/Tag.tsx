@@ -25,9 +25,9 @@ const Tag: React.FC<TagProps> = ({ name, theme, customClassName, iconName, closa
             ${customClassName || ''}`
         }
     >
-        {iconName ? <Icon name={iconName} theme={theme} /> : null}
+        {iconName ? <Icon customClassName={styles.icon} name={iconName} theme={theme} /> : null}
         <span className={styles.name}>{name}</span>
-        {closable ? <Icon name='cross' theme={theme} {...iconProps} /> : null}
+        {closable ? <Icon customClassName={styles.icon} name='cross' theme={theme} {...iconProps} /> : null}
     </div>
   );
 };
