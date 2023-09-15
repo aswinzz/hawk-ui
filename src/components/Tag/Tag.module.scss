@@ -1,0 +1,48 @@
+@import '../../styles/index.scss';
+
+.tag {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    padding: $tiny;
+    align-items: center;
+    gap: $tiny;
+    border-radius: $border-radius-sm;
+}
+
+.tag.light {
+    border: 1px solid $neutral-color-300;
+    background: $neutral-color-200;
+    color: $neutral-color-600;
+
+    &:hover {
+        border: 1px solid $neutral-color-300;
+        background: $blue-color-100;
+    }
+
+    &:focus {
+        border: 2px solid $blue-color-500;
+        background: $neutral-color-200;
+    }
+}
+
+.tag.dark {
+    border: 1px solid $neutral-color-600;
+    background: $neutral-color-700;
+    color: $neutral-color-200;
+
+    &:hover {
+        border: 1px solid $neutral-color-600;
+        background: $blue-color-900;
+    }
+
+    &:focus {
+        border: 2px solid $blue-color-400;
+        background: $neutral-color-700;
+    }
+}
+
+.name {
+    font-size: $bold-s;
+    font-weight: $bold-weight;
+    line-height: 140%;
+}
