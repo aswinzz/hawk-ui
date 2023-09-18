@@ -1,0 +1,79 @@
+@import '../../styles/index.scss';
+
+.tab {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    padding: $tiny;
+    align-items: center;
+    gap: $tiny;
+    cursor: pointer;
+}
+
+.tab.dark {
+    background: $neutral-color-700;
+    color: $neutral-color-200;
+
+    &:hover {
+        background: $neutral-color-600;
+    }
+}
+
+.tab.dark.selected {
+    border-bottom: $border-stroke-bold solid $blue-color-400;
+
+    &:hover {
+        background: $neutral-color-600;
+    }
+}
+
+.tab.light {
+    background: $neutral-color-100;
+    color: $neutral-color-600;
+
+    &:hover {
+        background: $neutral-color-200;
+    }
+}
+
+.tab.light.selected {
+    border-bottom: $border-stroke-bold solid $blue-color-500;
+
+    &:hover {
+        background: $neutral-color-200;
+    }
+}
+
+.name {
+    font-size: $caption-size;
+    font-weight: $bold-weight;
+    line-height: 150%; 
+}
+
+.count {
+    display: flex;
+    padding: 0 $tiny;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: $border-radius-sm;
+    font-size: $bold-xs;
+    font-weight: $bold-weight;
+    line-height: 132%;
+}
+
+.count.dark {
+    background: $blue-color-400;
+    color: $neutral-color-700;
+
+}
+
+.count.light {
+    background:$blue-color-500;
+    color: $neutral-color-100;
+}
+
+.icon {
+    height: $x-small;
+    width: $x-small;
+}
