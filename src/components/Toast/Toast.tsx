@@ -28,7 +28,7 @@ const Toast: React.FC<ToastProps> = ({ title, theme, message, type, actionText, 
         }
     >
         <div className={styles.left}>
-            {iconName && <Icon customClassName={styles.icon} name={iconName} theme={customIconTheme || theme} />}
+            {iconName && <Icon customClassName={styles.icon} name={iconName} theme={customIconTheme || theme || systemTheme} />}
             <div className={styles.text}>
                 {title && <h3 className={styles.title}>{title}</h3>}
                 <p className={styles.message}>{message}</p>

@@ -1,0 +1,63 @@
+@import '../../styles/index.scss';
+
+.wrapper {
+    position: relative;
+}
+
+.input {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    // width: 400px;
+    padding: 12px $xx-small;
+    align-items: center;
+    gap: $tiny;
+    border-radius: 8px;
+    background: transparent;
+}
+
+.input.dark {
+    border: 1px solid $neutral-color-400;
+    color: $neutral-color-100;
+}
+
+.input.light {
+    border: 1px solid $neutral-color-400;
+    color: $neutral-color-700;
+}
+
+.input.dark.success {
+    border: 2px solid $success-color-400;
+}
+
+.input.dark.failure {
+    border: 2px solid $error-color-400;
+}
+
+.input.light.success {
+    border: 2px solid $success-color-500;
+}
+
+.input.light.failure {
+    border: 2px solid $error-color-500;
+}
+
+.input.dark.disabled {
+    border: 1px solid $neutral-color-400;
+    background: $neutral-color-700;
+    color: $neutral-color-500;
+}
+
+.input.light.disabled {
+    border: 1px solid $neutral-color-400;
+    background: $neutral-color-100;
+    color: $neutral-color-300;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    height: 24px;
+    width: 24px;
+}

@@ -6,6 +6,7 @@ interface IconProps {
   name: string;
   theme?: "dark" | "light";
   customClassName?: string;
+  onClick?: () => void;
 }
 
 const Icon: React.FC<IconProps> = ({ name, theme, customClassName, ...remainingProps }) => {
@@ -14,7 +15,7 @@ const Icon: React.FC<IconProps> = ({ name, theme, customClassName, ...remainingP
   let svgPath;
 
   try {
-    svgPath = require(`../../images/icons/${name}-${theme}.svg`);
+    svgPath = require(`../../images/icons/${name}-${theme || systemTheme}.svg`);
   } catch (error) {
     console.log(error);
   }

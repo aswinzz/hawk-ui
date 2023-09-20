@@ -25,7 +25,7 @@ const Tab: React.FC<TabProps> = ({ name, theme, isSelected, customClassName, ico
             ${customClassName || ''}`
         }
     >
-        {iconName ? <Icon customClassName={styles.icon} name={iconName} theme={theme} /> : null}
+        {iconName ? <Icon customClassName={styles.icon} name={iconName} theme={theme || systemTheme} /> : null}
         <span className={styles.name}>{name}</span>
         {count ? <div className={`${styles.count} ${styles[theme || systemTheme]}`}>{count}</div> : null}
     </div>
