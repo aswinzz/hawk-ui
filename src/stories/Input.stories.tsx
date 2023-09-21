@@ -22,11 +22,84 @@ export const InputLight: Story = {
     args: {
         type: 'text',
         theme: 'light',
+        placeholder: 'Enter something',
     },
 };
+
 export const InputDark: Story = {
     args: {
         type: 'text',
         theme: 'dark',
+        placeholder: 'Enter something',
+    },
+};
+
+export const InputSuccessLight: Story = {
+    args: {
+        type: 'text',
+        theme: 'light',
+        status: 'success',
+        placeholder: 'Enter something',
+    },
+};
+
+export const InputSuccessDark: Story = {
+    args: {
+        type: 'text',
+        theme: 'dark',
+        status: 'success',
+        placeholder: 'Enter something',
+    },
+};
+
+export const InputFailureLight: Story = {
+    args: {
+        type: 'text',
+        theme: 'light',
+        status: 'failure',
+        placeholder: 'Enter something',
+    },
+};
+
+export const InputFailureDark: Story = {
+    args: {
+        type: 'text',
+        theme: 'dark',
+        status: 'failure',
+        placeholder: 'Enter something',
+    },
+};
+
+export const InputDisabledLight: Story = {
+    args: {
+        type: 'text',
+        theme: 'light',
+        disabled: true,
+        placeholder: 'Enter something',
+    },
+};
+
+export const InputDisabledDark: Story = {
+    args: {
+        type: 'text',
+        theme: 'dark',
+        disabled: true,
+        placeholder: 'Enter something',
+    },
+};
+
+export const InputPasswordLight: Story = {
+    args: {
+        type: 'password',
+        theme: 'light',
+        placeholder: 'Enter something',
+    },
+};
+
+export const InputPasswordDark: Story = {
+    args: {
+        type: 'password',
+        theme: 'dark',
+        placeholder: 'Enter something',
     },
 };
